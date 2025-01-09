@@ -48,7 +48,7 @@
   min-width: 1110px;
   min-height: 757px;
   padding: 165px 50px 50px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(/ono-tebe-nado-fd/images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -140,14 +140,14 @@
   padding-left: 40px;
   padding-bottom: 27px;
 }
- .lots_card-list {
+.lots_card-list {
   display: flex;
   gap: 25px;
   flex-direction: row;
   flex-wrap: wrap;
  }
 
- .lots_card-list-item {
+.lots_card-list-item {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -157,12 +157,12 @@
   z-index: -1
  }
 
- .card-link {
+.card-link {
   height: 100%;
   text-decoration: none;
  }
 
- .card_title {
+.card_title {
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
@@ -171,7 +171,7 @@
   color: #FFFFFF;
  }
 
- .card {
+.card {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -185,27 +185,27 @@
  line-height: 120%;
 }
 
- .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+.card_type_film {
+  background-image: url(/ono-tebe-nado-fd/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
  }
- .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
- }
-
- .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+.card_type_book {
+  background-image: url(/ono-tebe-nado-fd/images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
  }
 
- .lots_look-more-link {
+.card_type_picture {
+  background-image: url(/ono-tebe-nado-fd/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+
+.lots_look-more-link {
   display: flex;
   align-content: end;
   padding-top: 30px;
@@ -215,9 +215,28 @@
   line-height: 23px;
  }
 
- .about {
+.about {
   display: grid;
   grid-template-columns: 334px auto;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
+  padding: 120px 24px 180px;
  }
 
+.about_column {
+  display: flex;
+}
+
+.about_logo {
+  height:240px;
+  width: 240px;
+  background-color: black;
+  border-radius: 100%;
+ }
+
+.about_logo-image {
+  display: flex;
+  height: 114px;
+  width: 148px;
+  justify-content: center;
+  align-items: center;
+}
