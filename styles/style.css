@@ -228,7 +228,7 @@
     ". about_text";
   justify-items: center;
   align-items: center;
-  margin: 0px 24px 180px;
+  margin: 0px 24px 157px;
   padding-top: 35px;
 }
 
@@ -264,11 +264,12 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  padding-left: 24px;
+  padding: 5px 4px 24px 12px;
 }
 
-.about_text-first {
-  padding-bottom: 24px;
+.about_text.about_text-indent {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .footer {
