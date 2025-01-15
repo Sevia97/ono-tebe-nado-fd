@@ -12,6 +12,7 @@
   gap: 12px;
   list-style: inside;
   list-style-type: circle;
+  text-underline-position: under;
 }
 
 .header_menu-item-bullet {
@@ -29,11 +30,9 @@
 }
 
 .top_logo {
-  display: block;
-  align-content: center;
+  display: flex;
   width: 148px;
   height: 105px;
-  padding: 0;
 }
 
 .address {
@@ -44,6 +43,7 @@
   line-height: 24px;
   text-underline-position: under;
 }
+
 .header_address {
   justify-self: end;
   padding-right: 34px;
@@ -53,7 +53,7 @@
   position: relative;
   z-index: 1;
   padding: 165px 50px 50px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -150,7 +150,6 @@
   flex-wrap: wrap;
   gap: 25px;
   list-style-type: none;
-
 }
 
 .lots_card-list-item {
@@ -164,33 +163,27 @@
 
 .card {
   position: relative;
-  display: flex;
-  height: 100%;
   z-index: 1;
-  padding: 48px 40px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
+  padding: 48px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type-film {
-  background-image: url(/images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type-book {
-  background-image: url(/images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type-picture {
-  background-image: url(/images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -261,14 +254,19 @@
 
 .about_text {
   grid-area: about_text;
+  padding: 0px;
+  padding-left: 23px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  padding-left: 24px;
 }
 
-.about_text-first {
-  padding-bottom: 24px;
+.about_text-indent {
+  padding: 8px 16px 25px 0px;
+}
+
+.about_text-no-indent {
+  padding: 0px 7px 0px 0px;
 }
 
 .footer {
