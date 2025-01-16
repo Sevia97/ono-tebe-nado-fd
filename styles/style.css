@@ -74,7 +74,7 @@
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  line-height: 115%;
+  line-height: 128px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -84,12 +84,10 @@
 }
 
 .aligned_text-center {
-  margin-top: 19px;
   text-align: center;
 }
 
 .aligned_text-right {
-  margin-top: 19px;
   text-align: right;
 }
 
